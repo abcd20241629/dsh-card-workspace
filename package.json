@@ -1,0 +1,28 @@
+{
+  "name": "dsh-card-workspace",
+  "version": "0.1.0",
+  "description": "DSH 人格卡工作区：一张人设卡一个本地文件夹，自动注册、注入使用规则、提供 workspace_* 工具。",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22",
+    "dsh": ">=0.2.1-rc.5"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "persona",
+    "workspace",
+    "ai-companion"
+  ],
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "README.md",
+    "LICENSE"
+  ]
+}
